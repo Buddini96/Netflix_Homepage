@@ -7,6 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/x-icon" href="./favicon/nficon2016.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <style type="text/tailwindcss">
        
@@ -19,7 +21,7 @@
         }
 
         .red-btn {
-            @apply bg-[#e50914] py-[6px] mt-3 px-[10px] md:mt-0 md:px-[26px] flex items-center rounded-sm text-base md:text-[1.625rem] font-light
+            @apply bg-[#e50914] py-[6px] mt-3 px-[10px] md:mt-0 md:px-[26px] flex items-center rounded-sm text-base md:text-[1.2rem] font-light
         }
 
         .gray-border {
@@ -75,10 +77,10 @@
             <p class="text-[18px] md:text-[1.2rem] font-light">Ready to watch? Enter your email to create or restart your membership.</p>
             
             <!-- Input & button -->
-            <div class="flex flex-col md:flex-row w-full justify-center items-center md:items-stretch">
-                <input type="text" placeholder="Email address" class="md:w-[60%] w-full px-[10px] py-2 md:py-4 bg-white placeholder:text-start">
+            <div class="flex flex-col md:flex-row w-full justify-center items-center md:items-stretch grid-cols-1 gap-1">
+                <input type="text" placeholder ="Email address" class="md:w-[60%] w-full px-[10px] py-2 md:py-4 placeholder:text-start border-[1px] placeholder-[#ccc] border-white bg-black bg-opacity-50">
                 <button class="red-btn">
-                    <span class="font-normal">Get Started</span>
+                    <span class="font-normal text-[15px]">Get Started</span>
                     <svg  class="w-5 h-5 text-white fill-current" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-mirrorinrtl="true"  data-name="ChevronRight" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z" fill="currentColor"></path></svg>
                 </button>
             </div>
@@ -250,8 +252,11 @@
             </ul>
 
             <p class="text-[1.2rem] text-center mt-20 mb-4 font-light">Ready to watch? Enter your email to create or restart your membership.</p>
-            <div class="flex flex-col md:flex-row w-[90%] md:w-[70%] mx-auto items-center md:items-stretch justify-center">
-                <input type="text" placeholder="Email address" class="md:w-[60%] w-full px-[10px] py-2 md:py-4 bg-white placeholder:text-sm">
+
+
+            <div class="flex flex-col md:flex-row w-[90%] md:w-[70%] mx-auto items-center md:items-stretch justify-center grid-cols-1 gap-1">
+                
+                <input type="text" placeholder ="Email address" class="md:w-[60%] w-full px-[10px] py-2 md:py-4 placeholder:text-start border-[#ccc] bg-white bg-opacity-10 placeholder-[#ccc] text-white">
                 <button class="red-btn">
                 <span class="font-normal">Get Started</span>
                 <svg class="md:w-5 md:h-5 w-4 h-4 text-white fill-current" viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg"><desc>chevron</desc><path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill-rule="evenodd"></path></svg>
