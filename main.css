@@ -1,0 +1,18 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .accordian-header {
+        @apply py-4 px-6 cursor-pointer
+    }
+
+    .accordian-body {
+        @apply mx-h-0 overflow-hidden transition-all duration-200 ease-out
+    }
+
+    .accordian-header.active i {
+        @apply rotate-45;
+    }
+} */
