@@ -1,6 +1,6 @@
-# Netflix Home Page
+# Netflix Home Page Clone
 
-This project is a simple clone of the Netflix homepage, built using HTML, CSS, and JavaScript. 
+This project is a simple clone of the Netflix homepage, built using HTML, Tailwind CSS, and JavaScript. 
 
 ## 🔥 Features
 
@@ -9,4 +9,5 @@ This project is a simple clone of the Netflix homepage, built using HTML, CSS, a
 - **Navigation bar**
 - **Sections for popular movies and TV shows**
 
-![image](https://github.com/user-attachments/assets/ed256fd9-37ff-43c3-9b2e-64e100009a49)
+![image](https://github.com/user-attachments/assets/acac6be3-ceaa-48b8-8a0a-bb532ea65d41)
+
